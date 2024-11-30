@@ -15,7 +15,14 @@ body {  display: flex;
             .loading__anim {  width: 35px;  height: 35px; } /*. Style the author text to look slightly different.*/
             .loading__anim {   width: 35px;   height: 35px;   display: inline-block;  } /*Create the animated loader*/
             .loading__anim {   width: 35px;   height: 35px;   display: inline-block;   border: 5px solid rgba(189,189,189 ,0.25);  } /*he loader has some border set.*/
-            .loading__anim {  width: 35px;  height: 35px;  display: inline-block;  border: 5px solid rgba(189,189,189 ,0.25);  border-left-color: rgba(3,155,229 ,1);  border-top-color: rgba(3,155,229 ,1);  border-radius: 50%;animation: rotate 1s infinite linear; /* Spin the loader */}
+            .loading__anim {  width: 35px; 
+                              height: 35px; 
+                              display: inline-block; 
+                               border: 5px solid rgba(189,189,189 ,0.25); 
+                               border-left-color: rgba(3,155,229 ,1); 
+                               border-top-color: rgba(3,155,229 ,1); 
+                               border-radius: 50%;
+                               animation: rotate 1s infinite linear; /* Spin the loader */}
 @keyframes rotate { to {  transform: rotate(1turn) } } /* Rotate 360 degrees */
 
 
